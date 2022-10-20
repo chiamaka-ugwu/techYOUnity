@@ -151,10 +151,11 @@ const Home = () => {
               You can be a part of this movement by being a partner, mentor or
               being part of the community.
             </p>
-            <a href="https://www.getrevue.co/profile/tech_younity" className="join become">
+            <a href="" className="join become">
               Become a partner{" "}
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>
+            {/* https://www.getrevue.co/profile/tech_younity */}
           </div>
         </div>
       </div>
