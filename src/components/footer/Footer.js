@@ -2,6 +2,7 @@ import React from "react";
 import "../navbar/nav.css";
 import "./footer.css";
 import logo from "../../assets/images/logo.png";
+import logo2 from "../../assets/images/logo2.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,7 +18,8 @@ const Footer = () => {
       <footer>
         <div className="footer-content">
           <Link to="/" className="logo">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="logo1" />
+            <img src={logo2} alt="logo" className="logo2" />
           </Link>
           <ul className="links">
             <Link to="/">Join Us</Link>

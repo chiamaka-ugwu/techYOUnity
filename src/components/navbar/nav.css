@@ -28,11 +28,20 @@ nav{
 .none{
     display: none;
 }
+.logo2{
+    display: none;
+}
 
 
 @media screen and (max-width: 1000px) {
     nav{
         padding: 0.7rem 0;
+    }
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: block;
     }
     .links1{
         width: 100%;
@@ -52,12 +61,6 @@ nav{
     }
     .false{
         display: none;
-    }
-    .logo1{
-        z-index: 10000;
-    }
-    .logo1 img{
-        width: 90%;
     }
     
 }

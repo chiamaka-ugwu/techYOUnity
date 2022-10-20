@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './nav.css';
 import logo from '../../assets/images/logo.png';
+import logo2 from '../../assets/images/logo2.png';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -16,8 +17,9 @@ const Nav = ({className}) => {
         <>
             <nav>
                 <div className="nav-content">
-                    <Link to='/' className="logo1">
-                        <img src={logo} alt="logo" />
+                    <Link to='/' className="logo">
+                        <img src={logo} alt="logo" className='logo1' />
+                        <img src={logo2} alt="logo" className='logo2' />
                     </Link>
                     <ul className='links1 false'>
                         <Link to='/' className={`${className}`} onClick={toggle}>
