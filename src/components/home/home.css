@@ -1,0 +1,372 @@
+.home{
+    width: 100%;
+    background: url(../../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 69%;
+    background-color: #FAF2E9;
+}
+.home-content{
+    width: 85%;
+    height: 85vh; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+.home h1, .why-tech h1, .growth h1, .impact h2{
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    color: #050580;
+    margin-bottom: 1rem;
+}
+h1, h2, h3{
+    font-family: 'Syne', sans-serif;
+}
+.excel{
+    color: #FF24BD;
+}
+.home-content .left{
+    width: 60%;
+}
+.home-content .left p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 3rem;
+}
+.bold{
+    font-weight: 600;
+}
+.join{
+    padding: 15px 40px;
+    background: #050580;
+    border-radius: 0px 24px 24px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.5s ease-in-out;
+
+}
+.join:hover, .become:hover{
+    background-color: #000;
+}
+
+
+/* WHY TECH DESKTOP */
+.why-tech{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+.why-tech .left, .why-tech .right{
+    width: 47.8%;
+}
+.why-tech .left img{
+    width: 100%;
+}
+.why-tech .right h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.why-tech .right p, .growth .left p{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+/* GROWTH DESKTOP */
+.growth{
+    background-color: #FAF2E9;
+}
+.growth-content{
+    height: 100vh;
+    background: hsla(0, 79%, 75%, 0.3);
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+.content{
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.growth .left{
+    width: 35%;
+}
+.growth .right{
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+.growth .right .box{
+    width: 36%;
+}
+.one, .three{
+    padding: 2rem;
+    padding-left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.two, .four{
+    padding: 2rem;
+    padding-right: 0;
+}
+.three, .four{
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+}
+.growth h3{
+    color: #050580;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.growth .right p{
+    font-size: 16px;
+    line-height: 32px;
+}
+.community{
+    color: #050580;
+    font-weight: 600;
+}
+
+
+/* IMPACT DESKTOP */
+.impact{
+    background-color: #FAF2E9;
+    text-align: center;
+    padding: 3rem 0;
+}
+.impact-content, .partner-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.impact h2{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+.impact-content .box{
+    width: 30%;
+    background: #F7F1EC;
+    border-radius: 24px;
+    padding: 2rem;
+    transition: 0.5s ease-in-out;
+}
+.impact-content .box:hover{
+    background-color: #000;
+}
+.impact-content .box:hover .h3, .impact-content .box:hover .p{
+    color: #F7F1EC;
+}
+.impact h3{
+    font-size: 22px;
+}
+.impact p{
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+/* PARTNER CONTENT */
+.partner{
+    background-color: #050580;
+    padding: 4rem 0;
+}
+.partner .left, .partner .right{
+    width: 50%;
+}
+.partner h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 66px;
+    color: #FDF9F5;
+}
+.partner .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid rgba(247, 241, 236, 0.7);
+}
+.partner p{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #F7F1EC;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.become{
+    background-color: #F7F1EC;
+    color: #000;
+    margin-bottom: 2rem;
+    padding: 15px 50px;
+}
+.become:hover {
+    color: #F7F1EC;
+}
+.arrow{
+    margin-left: 0.5rem;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .home{
+        background-size: 100%;
+    }
+    .home-content{
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .home h1, .why-tech h1, .growth h1, .impact h2, .partner h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .home-content h1{
+        margin-top: 1rem;
+    }
+    .home-content .left p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .join, .become{
+        padding: 20px 28px;
+        font-size: 12px;
+    }
+    .home-content .left{
+        width: 100%;
+    }
+    
+    
+
+
+
+    /* WHY TECH MOBILE */
+    .why-tech{
+        flex-direction: column;
+        margin-top: 6rem;
+        gap: 2rem;  
+        padding-bottom: 3rem;
+    }
+    .why-tech .left, .why-tech .right{
+        width: 100%;
+    }
+    .why-tech .right h3{
+        font-size: 16px;
+    }
+    .why-tech .right p, .growth p, .impact p, .partner p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    /* GROWTH MOBILE */
+    .growth-content{
+        height: auto;
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .content{
+        height: auto;
+        flex-direction: column;
+    }
+    .growth .left{
+        width: 100%;
+        padding-top: 3rem;
+    }
+    .growth .right{
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: unset;
+        margin-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .growth .right .box{
+        width: 70%;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .one, .three{
+        padding: 0;
+        border-right: 0;
+    }
+    .two, .four{
+        padding: 0;
+    }
+    .three, .four{
+        border-top: 0;
+    }
+    .growth h3, .impact h3{
+        font-size: 20px;
+    }
+
+
+    /* IMPACT MOBILE */
+    .impact-content, .partner-content{
+        flex-direction: column;
+    }
+    .impact-content{
+        gap: 0.5rem;
+    }
+    .impact h2{
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+    .impact-content .box{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .impact p{
+        margin-top: 0.5rem;
+    }
+
+
+    /* PARTNER MOBILE */
+    .partner{
+        padding: 2rem 0;
+    }
+    .partner .left, .partner .right{
+        width: 100%;
+    }
+    .partner h1{
+        text-align: center;
+    }
+    .partner .right{
+        border-left: none;
+    }
+    .partner p{
+        width: 90%;
+        margin: auto;
+        line-height: 32px;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .become{
+        padding: 20px 70px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+}   
