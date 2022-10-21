@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.css";
-import image from "../../assets/images/home.png";
 import friends from "../../assets/images/friends.png";
 import village from "../../assets/images/village.png";
 import bulb from "../../assets/images/bulb.png";
@@ -25,7 +24,7 @@ const Home = () => {
               unburden, get the right mentorship, and most importantly{" "}
               <span className="bold">DO YOU!</span>
             </p>
-            <a href="https://forms.gle/ecgA8btSVCYhAHkM6" className="join">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform" className="join">
               Join the Community{" "}
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>
@@ -151,7 +150,7 @@ const Home = () => {
               You can be a part of this movement by being a partner, mentor or
               being part of the community.
             </p>
-            <a href="" className="join become">
+            <a href="mailto:techyounity@gmail.com" className="join become">
               Become a partner{" "}
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>

@@ -1,0 +1,50 @@
+.home2{
+    background-image: none !important; 
+}
+.about .right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.about .right img{
+    width: 70%;
+}
+
+
+.about-us {
+    height: 120vh;
+    background-color: #FAF2E9;
+    text-align: center;
+    padding-top: 10rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.about-us h3{
+    color: #050580;
+    margin-bottom: 1rem;
+}
+.about-us h2, .story h2{
+    font-size: 48px;
+    line-height: 48px;
+    color: #050580;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.about-us p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 32px;
+}
+.img-cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.img-cont img{
+    margin-top: -16rem;
+    position: absolute;
+    z-index: 1000;
+}
+

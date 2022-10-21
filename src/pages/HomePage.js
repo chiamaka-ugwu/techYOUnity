@@ -6,7 +6,7 @@ import Nav from '../components/navbar/Nav'
 const HomePage = () => {
     return (
         <>
-            <Nav className='active' />
+            <Nav home='active' />
             <Home />
             <Footer />
         </>

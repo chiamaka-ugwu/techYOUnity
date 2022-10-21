@@ -9,7 +9,7 @@ import { faClose } from '@fortawesome/free-solid-svg-icons'
 
 
 
-const Nav = ({className}) => {
+const Nav = ({home, about}) => {
     const [open, setOpen] = useState(false);
     const toggle = () => setOpen(!open);
 
@@ -22,32 +22,32 @@ const Nav = ({className}) => {
                         <img src={logo2} alt="logo" className='logo2' />
                     </Link>
                     <ul className='links1 false'>
-                        <Link to='/' className={`${className}`} onClick={toggle}>
+                        <Link to='/' className={`${home}`} onClick={toggle}>
                             Home
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <Link to='/about' className={`${about}`} onClick={toggle}>
                             About Us
                         </Link>
                         <Link to='/' onClick={toggle}>
                             Events
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform' onClick={toggle}>
                             Join Our Community
-                        </Link>
+                        </a>
                     </ul>
                     <ul className={open ? "links1 " : "none"}>
-                        <Link to='/' className={`${className} top`} onClick={toggle}>
+                        <Link to='/' className={`${home} top`} onClick={toggle}>
                             Home
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <Link to='/about' className={`${about} top`} onClick={toggle}>
                             About Us
                         </Link>
                         <Link to='/' onClick={toggle}>
                             Events
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform' onClick={toggle}>
                             Join Our Community
-                        </Link>
+                        </a>
                     </ul>
                     <div id="menu" onClick={toggle}><FontAwesomeIcon icon={open ? faClose : faBars} size="lg"  /></div>
                 </div>

@@ -14,7 +14,7 @@
     align-items: center;
     padding-top: 1rem;
 }
-.home h1, .why-tech h1, .growth h1, .impact h2{
+.home h1, .why-tech h1, .growth h1, .impact h2, .about-us h1{
     font-weight: 600;
     font-size: 55px;
     line-height: 65px;
@@ -37,6 +37,8 @@ h1, h2, h3{
 }
 .bold{
     font-weight: 600;
+    color: #050580;
+
 }
 .join{
     padding: 15px 40px;
@@ -69,7 +71,7 @@ h1, h2, h3{
 .why-tech .left img{
     width: 100%;
 }
-.why-tech .right h3{
+.why-tech .right h3, .about-us h3{
     font-weight: 600;
     font-size: 22px;
 }
@@ -185,6 +187,9 @@ h1, h2, h3{
     background-color: #050580;
     padding: 4rem 0;
 }
+.partner-content{
+    width: 85%;
+}
 .partner .left, .partner .right{
     width: 50%;
 }
@@ -253,8 +258,6 @@ h1, h2, h3{
     }
     
     
-
-
 
     /* WHY TECH MOBILE */
     .why-tech{

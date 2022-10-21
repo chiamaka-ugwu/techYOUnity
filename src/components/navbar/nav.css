@@ -20,7 +20,7 @@ nav{
     color: #050580 !important;
 }
 .active{
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 #menu{
     display: none;

@@ -1,0 +1,21 @@
+.story{
+    margin-top: 16rem;
+}
+.story h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.story-content{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.story .left, .story .right{
+    width: 47%;
+}
+.story p{
+    font-size: 20px;
+    line-height: 32px;
+
+}
