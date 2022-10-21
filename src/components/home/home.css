@@ -272,9 +272,10 @@ h1, h2, h3{
     .why-tech .right h3{
         font-size: 16px;
     }
-    .why-tech .right p, .growth p, .impact p, .partner p{
+    .why-tech .right p, .growth p, .impact p, .partner p, .about-us p, .story p{
         font-size: 16px;
         line-height: 24px;
+        font-weight: 400;
     }
 
 

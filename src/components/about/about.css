@@ -10,8 +10,6 @@
 .about .right img{
     width: 70%;
 }
-
-
 .about-us {
     height: 120vh;
     background-color: #FAF2E9;
@@ -48,3 +46,53 @@
     z-index: 1000;
 }
 
+
+
+@media screen and (max-width:1000px) {
+    .about .left{
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .about .right{
+        display: none;
+    }
+    .about-us{
+        height: auto;
+        padding-top: 0;
+        text-align: left;
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .about-content{
+        width: 85%;
+        margin: auto;
+    }
+    .about-us h3{
+        font-size: 16px;
+    }
+    .about-us h2{
+        font-size: 33px;
+    }
+    .about-us p{
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+    .img-cont{
+        width: 85%;
+        margin: auto;
+    }
+    .img-cont img{
+        width: 100%;
+        margin-top: -4rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
