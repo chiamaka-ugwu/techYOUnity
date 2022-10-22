@@ -24,7 +24,7 @@ const Home = () => {
               unburden, get the right mentorship, and most importantly{" "}
               <span className="bold">DO YOU!</span>
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform" className="join">
+            <a href="https://forms.gle/WiPf4xBCid5SrN9eA" className="join">
               Join the Community{" "}
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>
