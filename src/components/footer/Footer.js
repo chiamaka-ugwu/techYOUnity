@@ -22,7 +22,7 @@ const Footer = () => {
             <img src={logo2} alt="logo" className="logo2" />
           </Link>
           <ul className="links">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform">Join Us</a>
+            <a href="https://forms.gle/WiPf4xBCid5SrN9eA">Join Us</a>
             <a href="mailto:techyounity@gmail.com">Partner with us</a>
             <a href="mailto:techyounity@gmail.com">Donate</a>
             <a href="mailto:techyounity@gmail.com">Contact Us</a>
