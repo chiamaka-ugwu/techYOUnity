@@ -8,6 +8,15 @@ import Footer from '../components/footer/Footer';
 
 const AboutPage = () => {
     window.scroll(0, 0)
+    window.onscroll = () => {
+        const top = window.scrollY;
+        if (top >= 50) {
+            document.getElementById('nav').classList = 'nav nav2'
+        }else{
+            document.getElementById('nav').classList = 'nav'
+
+        }
+    }
     return (
         <>
             <Nav about='active'  />
