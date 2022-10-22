@@ -19,7 +19,7 @@ const AboutPage = () => {
     }
     return (
         <>
-            <Nav about='active'  />
+            <Nav about='active' id='nav'  />
             <AboutUs />
             <Story />
             <Mission />
