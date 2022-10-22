@@ -22,7 +22,7 @@ const AboutUs = () => {
               connecting with growth minded, passionate people. It's your
               community. <span className="bold">Are you ready for growth?</span>
             </p>
-            <a href="https://forms.gle/ecgA8btSVCYhAHkM6" className="join">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform" className="join">
               Join the Community{" "}
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>

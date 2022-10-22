@@ -9,13 +9,13 @@ import { faClose } from '@fortawesome/free-solid-svg-icons'
 
 
 
-const Nav = ({home, about}) => {
+const Nav = ({home, about, id}) => {
     const [open, setOpen] = useState(false);
     const toggle = () => setOpen(!open);
 
     return (
         <>
-            <nav>
+            <nav className='nav' id={id}>
                 <div className="nav-content">
                     <Link to='/' className="logo">
                         <img src={logo} alt="logo" className='logo1' />

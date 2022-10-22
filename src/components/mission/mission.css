@@ -1,0 +1,91 @@
+.mission{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+.mission .box{
+    width: 42%;
+    padding: 2rem;
+    background: rgba(255, 168, 167, 0.12);
+    border: 3px solid;    
+    border-image-source: linear-gradient(99.82deg, #050580 0.26%, #FF24BD 103.39%);
+    border-image-slice: 1;
+    border-radius: 16px;
+    /* border: 3px solid #FF24BD; */
+
+}
+h1{
+    font-weight: 600;
+    color: #050580;
+}
+h2{
+    color: #050580;
+}
+p{
+    font-weight: 400;
+}
+.values{
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.values h1{
+    text-align: center;
+}
+.val-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.val-content p{
+    font-weight: 500;
+    font-size: 20px;
+    width: 18%;
+    padding: 15px 30px;
+    border: 3px solid;    
+    border-image-source: linear-gradient(99.82deg, #050580 0.26%, #FF24BD 103.39%);
+    border-image-slice: 1;
+    border-radius: 16px;
+    text-align: center;
+    margin: 2rem;
+    /* border: 3px solid #050580; */
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .mission{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .mission .box{
+        width: 100%;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+    }
+    .mission .box p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mission h1{
+        font-size: 30px;
+    }
+    .val-content{
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .val-content p{
+        width: 35%;
+        font-size: 10px;
+        margin: 0;
+        padding: 15px 10px;
+
+    }
+
+
+
+
+}

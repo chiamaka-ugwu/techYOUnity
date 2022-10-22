@@ -18,12 +18,12 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
-.about-us h3{
+.about-us h3, .mission h1{
     color: #050580;
     margin-bottom: 1rem;
 }
 .about-us h2, .story h2{
-    font-size: 48px;
+    font-size: 40px;
     line-height: 48px;
     color: #050580;
     margin-bottom: 2rem;
@@ -43,7 +43,7 @@
 .img-cont img{
     margin-top: -16rem;
     position: absolute;
-    z-index: 1000;
+    z-index: 10;
 }
 
 

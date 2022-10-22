@@ -14,7 +14,7 @@
 .story .left, .story .right{
     width: 47%;
 }
-.story p{
+.story p, .mission p{
     font-size: 20px;
     line-height: 32px;
 }

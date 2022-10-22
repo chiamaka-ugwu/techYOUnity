@@ -1,5 +1,11 @@
 nav{
     background-color: #FAF2E9;
+    z-index: 10000000000;
+
+}
+.nav2{
+    box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
 }
 .nav-content, .footer-content{
     width: 85%;
@@ -15,6 +21,7 @@ nav{
     text-decoration: none;
     color: #000;
     font-weight: 500;
+    width: fit-content;
 }
 .links1 a:hover, .active{
     color: #050580 !important;
@@ -36,6 +43,8 @@ nav{
 @media screen and (max-width: 1000px) {
     nav{
         padding: 0.7rem 0;
+        position: sticky;
+        top: 0;
     }
     .logo1{
         display: none;
@@ -47,7 +56,7 @@ nav{
         width: 100%;
         height: 100vh;
         position: absolute;
-        top: 5rem;
+        top: 4.6rem;
         left: 0;
         display: flex;
         flex-flow: column wrap;
