@@ -151,7 +151,7 @@ const Home = () => {
               being part of the community.
             </p>
             <a href="mailto:techyounity@gmail.com" className="join become">
-              Become a partner{" "}
+              Become a partner
               <FontAwesomeIcon className="arrow" icon={faArrowRightLong} />
             </a>
             {/* https://www.getrevue.co/profile/tech_younity */}

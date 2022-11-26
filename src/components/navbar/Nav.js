@@ -9,7 +9,7 @@ import { faClose } from '@fortawesome/free-solid-svg-icons'
 
 
 
-const Nav = ({home, about, id}) => {
+const Nav = ({home, about, events, id}) => {
     const [open, setOpen] = useState(false);
     const toggle = () => setOpen(!open);
 
@@ -28,7 +28,7 @@ const Nav = ({home, about, id}) => {
                         <Link to='/about' className={`${about}`} onClick={toggle}>
                             About Us
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <Link to='/events' className={`${events}`} onClick={toggle}>
                             Events
                         </Link>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform' onClick={toggle}>
@@ -42,7 +42,7 @@ const Nav = ({home, about, id}) => {
                         <Link to='/about' className={`${about} top`} onClick={toggle}>
                             About Us
                         </Link>
-                        <Link to='/' onClick={toggle}>
+                        <Link to='/events' className={`${events}`} onClick={toggle}>
                             Events
                         </Link>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSc5jAgSXzPiyoVU5H0vt2D6cjZ8loSrSJ2QXP6n0mE8NmeS-g/viewform' onClick={toggle}>
